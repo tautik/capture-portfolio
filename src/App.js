@@ -1,9 +1,12 @@
 import About from "./pages/About";
 
+//importing global styles
+import GlobalStyle from "./components/GlobalStyle";
+
 function App() {
   return (
     <div className="App">
-      <h1>hellow</h1>
+      <GlobalStyle />
       <About />
     </div>
   );
