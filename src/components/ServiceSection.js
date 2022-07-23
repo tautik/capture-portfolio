@@ -74,13 +74,14 @@ const Cards = styled.div`
   flex-wrap: wrap;
 
   .card {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
   }
 `;
 const Card = styled.div`
   flex-basis: 11rem;
   display: flex;
   flex-direction: column;
+  margin: 1rem 0 1rem 1rem;
   .icon {
     display: flex;
     align-items: center;
